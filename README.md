@@ -66,6 +66,11 @@ for idx, item in enumerate(results['items']):
     print(idx, track['artists'][0]['name'], " – ", track['name'])
 ```
 
+## Troubleshooting user authentication
+
+At times you may want to log in again or use another account for testing purposes. After authentication a .cache file will  be create in your directory containing the access token, refresh token, and api scope keywords. Deleting this file will then prompt your program to re-authenticate in case you wish to use another account. 
+
+
 ## Reporting Issues
 
 For common questions please check our [FAQ](FAQ.md).
